@@ -5,7 +5,8 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from time import sleep
-    def test_todo_app():
+
+def test_todo_app():
 
     #step 2: you have to instantiate the driver in a variable called “browser”.
     # We are instantiating the ChromeDriver, given that we will use it in the Chrome browser
